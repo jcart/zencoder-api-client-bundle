@@ -1,0 +1,23 @@
+{
+  "name": "jc/zencoder-api-client-bundle",
+  "homepage": "http://github.com/jcart/zendcoder-api-client-bundle",
+  "keywords":["zencoder", "symfony2"],
+  "type":"library",
+  "license":"MIT",
+  "autoload": {
+    "psr-0" : {
+      "JC\\ZencoderApiClientBundle" : ""
+    }
+  },
+  "target-dir": "JC/ZencoderApiClientBundle",
+  "authors":[
+    {
+      "name":"John Cartwright",
+      "homepage":"http://jcartwright.ca"
+    }
+  ],
+  "require": {
+      "php": ">=5.5.0",
+      "zencoder/zencoder-php": "dev-master"
+  }  
+}

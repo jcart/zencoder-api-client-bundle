@@ -1,0 +1,9 @@
+services:
+    jc_zencoder_api_client.client:
+        class: Services/Zencoder
+        arguments:
+            - %jc_encoder.api_key%
+            - %jc_encoder.api_host%
+            - %jc_encoder.debug%
+            - %jc_encoder.ca_path%
+            - %jc_encoder.ca_file%
